@@ -1,0 +1,63 @@
+Day1 Objective:- 
+Create a simple Scala application that demonstrates the use of the following
+traits 
+case classes
+options
+pattern matching 
+
+Instruction
+
+1. Create a Package and Main Object
+
+packagename - scalaprep.day1
+Create object that extends App
+
+
+2. Define a Trait
+
+Define a trait named UserService.
+Inside this trait, create a method named getUser.
+The getUser method should take a String parameter (representing a user ID) and return a User type
+Note : the user ID may or may not be present.
+
+
+3. Define a Case Class
+
+Create a case class User with fields:
+id: String
+name: String
+age: Int
+
+
+4. Implement the Trait
+
+Create a class UserServiceImpl that extends UserService.
+Define a private map users with sample user data.
+
+User with ID "1", name "Alice", and age 30.
+User with ID "2", name "Bob", and age 25.
+
+
+
+Implement getUser to fetch a user by ID.
+
+
+
+
+5. Create a Function to Fetch User Details
+
+Define a function fetchUserDetails(service: UserServiceImpl, userId: String): String.
+Use pattern matching to return user details or "User not found".
+
+
+
+6. Test the Implementation
+
+Create an instance of UserServiceImpl.
+Call fetchUserDetails with valid and invalid user IDs.
+Print the results.
+
+
+
+
+
